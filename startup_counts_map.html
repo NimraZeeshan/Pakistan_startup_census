@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_4a0d6f766235309715d62857667d92ef {
+                #map_04813d3d754f5c7ae57db6e3b4ee627f {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_4a0d6f766235309715d62857667d92ef" ></div>
+            <div class="folium-map" id="map_04813d3d754f5c7ae57db6e3b4ee627f" ></div>
         
 </body>
 <script>
     
     
-            var map_4a0d6f766235309715d62857667d92ef = L.map(
-                "map_4a0d6f766235309715d62857667d92ef",
+            var map_04813d3d754f5c7ae57db6e3b4ee627f = L.map(
+                "map_04813d3d754f5c7ae57db6e3b4ee627f",
                 {
                     center: [30.3753, 69.3451],
                     crs: L.CRS.EPSG3857,
@@ -60,589 +60,589 @@
 
         
     
-            var tile_layer_846ebe0444d36e24238aabd8303ac561 = L.tileLayer(
+            var tile_layer_ec9d5f2c2707c3951b68f7c7ca1c366c = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_846ebe0444d36e24238aabd8303ac561.addTo(map_4a0d6f766235309715d62857667d92ef);
+            tile_layer_ec9d5f2c2707c3951b68f7c7ca1c366c.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_9b8013f5967f923698b8c429c6ddff0d = L.featureGroup(
+            var choropleth_f5ad421a01a9298f6d883eb54d4a9104 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_0479dccee74a0f5c766afd71f04828c4_styler(feature) {
+        function geo_json_9cd534a637f305e22874f59613099287_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_0479dccee74a0f5c766afd71f04828c4_onEachFeature(feature, layer) {
+        function geo_json_9cd534a637f305e22874f59613099287_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_0479dccee74a0f5c766afd71f04828c4 = L.geoJson(null, {
-                onEachFeature: geo_json_0479dccee74a0f5c766afd71f04828c4_onEachFeature,
+        var geo_json_9cd534a637f305e22874f59613099287 = L.geoJson(null, {
+                onEachFeature: geo_json_9cd534a637f305e22874f59613099287_onEachFeature,
             
-                style: geo_json_0479dccee74a0f5c766afd71f04828c4_styler,
+                style: geo_json_9cd534a637f305e22874f59613099287_styler,
         });
 
-        function geo_json_0479dccee74a0f5c766afd71f04828c4_add (data) {
-            geo_json_0479dccee74a0f5c766afd71f04828c4
+        function geo_json_9cd534a637f305e22874f59613099287_add (data) {
+            geo_json_9cd534a637f305e22874f59613099287
                 .addData(data);
         }
-            geo_json_0479dccee74a0f5c766afd71f04828c4_add({"features": [{"bbox": [66.2862312, 24.4273517, 67.5827753, 25.676796], "geometry": {"coordinates": [67.0207055, 24.8546842], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u06a9\u0631\u0627\u0686\u06cc \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.50001, "name": "\u06a9\u0631\u0627\u0686\u06cc \u0688\u0648\u06cc\u0698\u0646", "osm_id": 6080948, "osm_type": "relation", "place_id": 378166397, "place_rank": 10, "type": "administrative"}, "type": "Feature"}, {"bbox": [72.7741267, 33.182707, 72.8141267, 33.222707], "geometry": {"coordinates": [72.7941267, 33.202707], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u06a9\u0691\u0627\u06be\u06cc, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0635\u062f\u0631, \u0636\u0644\u0639 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u06a9\u0691\u0627\u06be\u06cc", "osm_id": 11674359832, "osm_type": "node", "place_id": 382981316, "place_rank": 19, "type": "village"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_9cd534a637f305e22874f59613099287_add({"features": [{"bbox": [66.2862312, 24.4273517, 67.5827753, 25.676796], "geometry": {"coordinates": [67.0207055, 24.8546842], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u06a9\u0631\u0627\u0686\u06cc \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.50001, "name": "\u06a9\u0631\u0627\u0686\u06cc \u0688\u0648\u06cc\u0698\u0646", "osm_id": 6080948, "osm_type": "relation", "place_id": 378707431, "place_rank": 10, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_0479dccee74a0f5c766afd71f04828c4.addTo(choropleth_9b8013f5967f923698b8c429c6ddff0d);
+            geo_json_9cd534a637f305e22874f59613099287.addTo(choropleth_f5ad421a01a9298f6d883eb54d4a9104);
         
     
-            choropleth_9b8013f5967f923698b8c429c6ddff0d.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_f5ad421a01a9298f6d883eb54d4a9104.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_705ad4fc33ebfc9fd2d98b17e1ecff89 = L.featureGroup(
+            var choropleth_05efe1cc2e6c32895acab9ca39dd9949 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_d04150272e7d3a1e9876c09b3f106d06_styler(feature) {
+        function geo_json_0f7689020660c11ddefc65f5c8177682_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_d04150272e7d3a1e9876c09b3f106d06_onEachFeature(feature, layer) {
+        function geo_json_0f7689020660c11ddefc65f5c8177682_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_d04150272e7d3a1e9876c09b3f106d06 = L.geoJson(null, {
-                onEachFeature: geo_json_d04150272e7d3a1e9876c09b3f106d06_onEachFeature,
+        var geo_json_0f7689020660c11ddefc65f5c8177682 = L.geoJson(null, {
+                onEachFeature: geo_json_0f7689020660c11ddefc65f5c8177682_onEachFeature,
             
-                style: geo_json_d04150272e7d3a1e9876c09b3f106d06_styler,
+                style: geo_json_0f7689020660c11ddefc65f5c8177682_styler,
         });
 
-        function geo_json_d04150272e7d3a1e9876c09b3f106d06_add (data) {
-            geo_json_d04150272e7d3a1e9876c09b3f106d06
+        function geo_json_0f7689020660c11ddefc65f5c8177682_add (data) {
+            geo_json_0f7689020660c11ddefc65f5c8177682
                 .addData(data);
         }
-            geo_json_d04150272e7d3a1e9876c09b3f106d06_add({"features": [{"bbox": [72.9051511, 33.5338118, 73.2251511, 33.8538118], "geometry": {"coordinates": [73.0651511, 33.6938118], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u0632\u0648\u0646 1, \u0648\u0641\u0627\u0642\u06cc \u062f\u0627\u0631\u0627\u0644\u062d\u06a9\u0648\u0645\u062a \u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, 44000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5841564917637788, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 316440978, "osm_type": "node", "place_id": 188814592, "place_rank": 15, "type": "city"}, "type": "Feature"}, {"bbox": [74.3984511, 31.6012337, 74.4046637, 31.6096427], "geometry": {"coordinates": [74.40148684774945, 31.60499265], "type": "Point"}, "properties": {"addresstype": "neighbourhood", "category": "place", "display_name": "Islamabad, \u0645\u062d\u0645\u0648\u062f \u0628\u064f\u0648\u0679\u06cc, \u062a\u062d\u0635\u06cc\u0644 \u0634\u0627\u0644\u06cc\u0645\u0627\u0631, \u0636\u0644\u0639 \u0644\u0627\u06c1\u0648\u0631, \u0644\u0627\u06c1\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "Islamabad", "osm_id": 607878798, "osm_type": "way", "place_id": 212952792, "place_rank": 20, "type": "neighbourhood"}, "type": "Feature"}, {"bbox": [73.0636533, 33.6071036, 73.0836533, 33.6271036], "geometry": {"coordinates": [73.0736533, 33.6171036], "type": "Point"}, "properties": {"addresstype": "neighbourhood", "category": "place", "display_name": "Islamabad, Dhok Khabba, \u0686\u0627\u06c1 \u0633\u0644\u0637\u0627\u0646, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0634\u06c1\u0631, \u0636\u0644\u0639 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 46000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "Islamabad", "osm_id": 7805754772, "osm_type": "node", "place_id": 188204680, "place_rank": 20, "type": "neighbourhood"}, "type": "Feature"}, {"bbox": [68.3714206, 25.3750478, 68.3914206, 25.3950478], "geometry": {"coordinates": [68.3814206, 25.3850478], "type": "Point"}, "properties": {"addresstype": "neighbourhood", "category": "place", "display_name": "Islamabad, Gulshan-e-Hali, \u0644\u0637\u06cc\u0641 \u0622\u0628\u0627\u062f, \u062a\u0639\u0644\u0642\u06c1 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f \u0634\u06c1\u0631, \u0636\u0644\u0639 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u062d\u06cc\u062f\u0631 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, 91000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "Islamabad", "osm_id": 5283908619, "osm_type": "node", "place_id": 212511633, "place_rank": 20, "type": "neighbourhood"}, "type": "Feature"}, {"bbox": [67.770917, 27.5448445, 67.810917, 27.5848445], "geometry": {"coordinates": [67.790917, 27.5648445], "type": "Point"}, "properties": {"addresstype": "hamlet", "category": "place", "display_name": "Islamabad, Goth Bagh, \u062a\u0639\u0644\u0642\u06c1 \u0642\u0645\u0628\u0631, \u0636\u0644\u0639 \u0642\u0645\u0628\u0631-\u0634\u06c1\u062f\u0627\u062f\u06a9\u0648\u0679, \u0644\u0627\u0691\u06a9\u0627\u0646\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "Islamabad", "osm_id": 11276331449, "osm_type": "node", "place_id": 370438396, "place_rank": 20, "type": "hamlet"}, "type": "Feature"}, {"bbox": [73.9652458, 32.3569915, 74.0052458, 32.3969915], "geometry": {"coordinates": [73.9852458, 32.3769915], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u062a\u062d\u0635\u06cc\u0644 \u0639\u0644\u06cc \u067e\u0648\u0631 \u0686\u06be\u0679\u06c1, \u0636\u0644\u0639 \u0648\u0632\u06cc\u0631 \u0622\u0628\u0627\u062f, \u06af\u062c\u0631\u0627\u062a \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 9249023044, "osm_type": "node", "place_id": 189582659, "place_rank": 19, "type": "village"}, "type": "Feature"}, {"bbox": [74.3615802, 31.8455452, 74.4015802, 31.8855452], "geometry": {"coordinates": [74.3815802, 31.8655452], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u062a\u062d\u0635\u06cc\u0644 \u0645\u0631\u06cc\u062f\u06a9\u06d2, \u0636\u0644\u0639 \u0634\u06cc\u062e\u0648\u067e\u0648\u0631\u06c1, \u0644\u0627\u06c1\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 9397506484, "osm_type": "node", "place_id": 213406327, "place_rank": 19, "type": "village"}, "type": "Feature"}, {"bbox": [74.3357929, 32.2681336, 74.3757929, 32.3081336], "geometry": {"coordinates": [74.3557929, 32.2881336], "type": "Point"}, "properties": {"addresstype": "hamlet", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u0631\u0627\u062c\u06c1 \u06af\u06be\u0645\u0646\u0627\u06ba, \u062a\u062d\u0635\u06cc\u0644 \u0688\u0633\u06a9\u06c1, \u0636\u0644\u0639 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 51010, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 9249113302, "osm_type": "node", "place_id": 188384658, "place_rank": 20, "type": "hamlet"}, "type": "Feature"}, {"bbox": [73.0230927, 33.5767772, 73.0430927, 33.5967772], "geometry": {"coordinates": [73.0330927, 33.5867772], "type": "Point"}, "properties": {"addresstype": "neighbourhood", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u0627\u0641\u0634\u0627\u06ba \u06a9\u0627\u0644\u0648\u0646\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc, \u0636\u0644\u0639 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 23451, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 7805631184, "osm_type": "node", "place_id": 189710623, "place_rank": 20, "type": "neighbourhood"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_0f7689020660c11ddefc65f5c8177682_add({"features": [{"bbox": [72.9051511, 33.5338118, 73.2251511, 33.8538118], "geometry": {"coordinates": [73.0651511, 33.6938118], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u0632\u0648\u0646 1, \u0648\u0641\u0627\u0642\u06cc \u062f\u0627\u0631\u0627\u0644\u062d\u06a9\u0648\u0645\u062a \u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, 44000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5841564917637788, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 316440978, "osm_type": "node", "place_id": 221993668, "place_rank": 15, "type": "city"}, "type": "Feature"}, {"bbox": [67.770917, 27.5448445, 67.810917, 27.5848445], "geometry": {"coordinates": [67.790917, 27.5648445], "type": "Point"}, "properties": {"addresstype": "hamlet", "category": "place", "display_name": "Islamabad, Goth Bagh, \u062a\u0639\u0644\u0642\u06c1 \u0642\u0645\u0628\u0631, \u0636\u0644\u0639 \u0642\u0645\u0628\u0631-\u0634\u06c1\u062f\u0627\u062f\u06a9\u0648\u0679, \u0644\u0627\u0691\u06a9\u0627\u0646\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "Islamabad", "osm_id": 11276331449, "osm_type": "node", "place_id": 370978923, "place_rank": 20, "type": "hamlet"}, "type": "Feature"}, {"bbox": [74.3984511, 31.6012337, 74.4046637, 31.6096427], "geometry": {"coordinates": [74.40148684774945, 31.60499265], "type": "Point"}, "properties": {"addresstype": "neighbourhood", "category": "place", "display_name": "Islamabad, \u0645\u062d\u0645\u0648\u062f \u0628\u064f\u0648\u0679\u06cc, \u062a\u062d\u0635\u06cc\u0644 \u0634\u0627\u0644\u06cc\u0645\u0627\u0631, \u0636\u0644\u0639 \u0644\u0627\u06c1\u0648\u0631, \u0644\u0627\u06c1\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "Islamabad", "osm_id": 607878798, "osm_type": "way", "place_id": 242777317, "place_rank": 20, "type": "neighbourhood"}, "type": "Feature"}, {"bbox": [68.3714206, 25.3750478, 68.3914206, 25.3950478], "geometry": {"coordinates": [68.3814206, 25.3850478], "type": "Point"}, "properties": {"addresstype": "neighbourhood", "category": "place", "display_name": "Islamabad, Gulshan-e-Hali, \u0644\u0637\u06cc\u0641 \u0622\u0628\u0627\u062f, \u062a\u0639\u0644\u0642\u06c1 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f \u0634\u06c1\u0631, \u0636\u0644\u0639 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u062d\u06cc\u062f\u0631 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, 91000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "Islamabad", "osm_id": 5283908619, "osm_type": "node", "place_id": 244656225, "place_rank": 20, "type": "neighbourhood"}, "type": "Feature"}, {"bbox": [73.0636533, 33.6071036, 73.0836533, 33.6271036], "geometry": {"coordinates": [73.0736533, 33.6171036], "type": "Point"}, "properties": {"addresstype": "neighbourhood", "category": "place", "display_name": "Islamabad, Dhok Khabba, \u0686\u0627\u06c1 \u0633\u0644\u0637\u0627\u0646, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0634\u06c1\u0631, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 46000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.1333433333333333, "name": "Islamabad", "osm_id": 7805754772, "osm_type": "node", "place_id": 221212073, "place_rank": 20, "type": "neighbourhood"}, "type": "Feature"}, {"bbox": [73.9652458, 32.3569915, 74.0052458, 32.3969915], "geometry": {"coordinates": [73.9852458, 32.3769915], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u062a\u062d\u0635\u06cc\u0644 \u0639\u0644\u06cc \u067e\u0648\u0631 \u0686\u06be\u0679\u06c1, \u0636\u0644\u0639 \u0648\u0632\u06cc\u0631 \u0622\u0628\u0627\u062f, \u06af\u062c\u0631\u0627\u062a \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 9249023044, "osm_type": "node", "place_id": 221603530, "place_rank": 19, "type": "village"}, "type": "Feature"}, {"bbox": [74.3615802, 31.8455452, 74.4015802, 31.8855452], "geometry": {"coordinates": [74.3815802, 31.8655452], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u062a\u062d\u0635\u06cc\u0644 \u0645\u0631\u06cc\u062f\u06a9\u06d2, \u0636\u0644\u0639 \u0634\u06cc\u062e\u0648\u067e\u0648\u0631\u06c1, \u0644\u0627\u06c1\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 9397506484, "osm_type": "node", "place_id": 244204224, "place_rank": 19, "type": "village"}, "type": "Feature"}, {"bbox": [74.3357929, 32.2681336, 74.3757929, 32.3081336], "geometry": {"coordinates": [74.3557929, 32.2881336], "type": "Point"}, "properties": {"addresstype": "hamlet", "category": "place", "display_name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u0631\u0627\u062c\u06c1 \u06af\u06be\u0645\u0646\u0627\u06ba, \u062a\u062d\u0635\u06cc\u0644 \u0688\u0633\u06a9\u06c1, \u0636\u0644\u0639 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 51010, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.25000999999999995, "name": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f", "osm_id": 9249113302, "osm_type": "node", "place_id": 221463957, "place_rank": 20, "type": "hamlet"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_d04150272e7d3a1e9876c09b3f106d06.addTo(choropleth_705ad4fc33ebfc9fd2d98b17e1ecff89);
+            geo_json_0f7689020660c11ddefc65f5c8177682.addTo(choropleth_05efe1cc2e6c32895acab9ca39dd9949);
         
     
-            choropleth_705ad4fc33ebfc9fd2d98b17e1ecff89.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_05efe1cc2e6c32895acab9ca39dd9949.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_524b758ce0de2481f05aceeee3d85d7a = L.featureGroup(
+            var choropleth_3ae78b5d818b005fe364c842b3966169 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_bd9cda1ef1c7077e823e4e2da15df6af_styler(feature) {
+        function geo_json_c15c5dab336a6c9866a918f879494bf8_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_bd9cda1ef1c7077e823e4e2da15df6af_onEachFeature(feature, layer) {
+        function geo_json_c15c5dab336a6c9866a918f879494bf8_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_bd9cda1ef1c7077e823e4e2da15df6af = L.geoJson(null, {
-                onEachFeature: geo_json_bd9cda1ef1c7077e823e4e2da15df6af_onEachFeature,
+        var geo_json_c15c5dab336a6c9866a918f879494bf8 = L.geoJson(null, {
+                onEachFeature: geo_json_c15c5dab336a6c9866a918f879494bf8_onEachFeature,
             
-                style: geo_json_bd9cda1ef1c7077e823e4e2da15df6af_styler,
+                style: geo_json_c15c5dab336a6c9866a918f879494bf8_styler,
         });
 
-        function geo_json_bd9cda1ef1c7077e823e4e2da15df6af_add (data) {
-            geo_json_bd9cda1ef1c7077e823e4e2da15df6af
+        function geo_json_c15c5dab336a6c9866a918f879494bf8_add (data) {
+            geo_json_c15c5dab336a6c9866a918f879494bf8
                 .addData(data);
         }
-            geo_json_bd9cda1ef1c7077e823e4e2da15df6af_add({"features": [{"bbox": [74.1541829, 31.4056822, 74.4741829, 31.7256822], "geometry": {"coordinates": [74.3141829, 31.5656822], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0644\u0627\u06c1\u0648\u0631, \u062a\u062d\u0635\u06cc\u0644 \u0644\u0627\u06c1\u0648\u0631 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u0644\u0627\u06c1\u0648\u0631, \u0644\u0627\u06c1\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 54500, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.6036041069355744, "name": "\u0644\u0627\u06c1\u0648\u0631", "osm_id": 1886594378, "osm_type": "node", "place_id": 213373490, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_c15c5dab336a6c9866a918f879494bf8_add({"features": [{"bbox": [74.1541829, 31.4056822, 74.4741829, 31.7256822], "geometry": {"coordinates": [74.3141829, 31.5656822], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0644\u0627\u06c1\u0648\u0631, \u0636\u0644\u0639 \u0644\u0627\u06c1\u0648\u0631, \u0644\u0627\u06c1\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 54500, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.6036041069355744, "name": "\u0644\u0627\u06c1\u0648\u0631", "osm_id": 1886594378, "osm_type": "node", "place_id": 243284101, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_bd9cda1ef1c7077e823e4e2da15df6af.addTo(choropleth_524b758ce0de2481f05aceeee3d85d7a);
+            geo_json_c15c5dab336a6c9866a918f879494bf8.addTo(choropleth_3ae78b5d818b005fe364c842b3966169);
         
     
-            choropleth_524b758ce0de2481f05aceeee3d85d7a.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_3ae78b5d818b005fe364c842b3966169.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_e330af835042ce2ee22b7ae5eef695f8 = L.featureGroup(
+            var choropleth_64a5255cb8e4c91e3a7d3ccdb8598fc8 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_e8efcdd13209a69295fa15c85b66de9a_styler(feature) {
+        function geo_json_895e6532a2a15384fc129fe39f4129d8_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_e8efcdd13209a69295fa15c85b66de9a_onEachFeature(feature, layer) {
+        function geo_json_895e6532a2a15384fc129fe39f4129d8_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_e8efcdd13209a69295fa15c85b66de9a = L.geoJson(null, {
-                onEachFeature: geo_json_e8efcdd13209a69295fa15c85b66de9a_onEachFeature,
+        var geo_json_895e6532a2a15384fc129fe39f4129d8 = L.geoJson(null, {
+                onEachFeature: geo_json_895e6532a2a15384fc129fe39f4129d8_onEachFeature,
             
-                style: geo_json_e8efcdd13209a69295fa15c85b66de9a_styler,
+                style: geo_json_895e6532a2a15384fc129fe39f4129d8_styler,
         });
 
-        function geo_json_e8efcdd13209a69295fa15c85b66de9a_add (data) {
-            geo_json_e8efcdd13209a69295fa15c85b66de9a
+        function geo_json_895e6532a2a15384fc129fe39f4129d8_add (data) {
+            geo_json_895e6532a2a15384fc129fe39f4129d8
                 .addData(data);
         }
-            geo_json_e8efcdd13209a69295fa15c85b66de9a_add({"features": [{"bbox": [71.821283, 33.8555606, 72.141283, 34.1755606], "geometry": {"coordinates": [71.981283, 34.0155606], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0646\u0648\u0634\u06c1\u0631\u06c1, \u062a\u062d\u0635\u06cc\u0644 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u0636\u0644\u0639 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u067e\u0634\u0627\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u062e\u06cc\u0628\u0631 \u067e\u062e\u062a\u0648\u0646\u062e\u0648\u0627, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.3935348512699776, "name": "\u0646\u0648\u0634\u06c1\u0631\u06c1", "osm_id": 90536341, "osm_type": "node", "place_id": 189859316, "place_rank": 16, "type": "city"}, "type": "Feature"}, {"bbox": [71.8284312, 33.8367206, 72.1319871, 34.1365353], "geometry": {"coordinates": [71.95013344293969, 33.987536500000004], "type": "Point"}, "properties": {"addresstype": "municipality", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u0636\u0644\u0639 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u067e\u0634\u0627\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u062e\u06cc\u0628\u0631 \u067e\u062e\u062a\u0648\u0646\u062e\u0648\u0627, 24100, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.40001, "name": "\u062a\u062d\u0635\u06cc\u0644 \u0646\u0648\u0634\u06c1\u0631\u06c1", "osm_id": 16498225, "osm_type": "relation", "place_id": 369886436, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_895e6532a2a15384fc129fe39f4129d8_add({"features": [{"bbox": [71.821283, 33.8555606, 72.141283, 34.1755606], "geometry": {"coordinates": [71.981283, 34.0155606], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0646\u0648\u0634\u06c1\u0631\u06c1, \u062a\u062d\u0635\u06cc\u0644 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u0636\u0644\u0639 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u067e\u0634\u0627\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u062e\u06cc\u0628\u0631 \u067e\u062e\u062a\u0648\u0646\u062e\u0648\u0627, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.3935348512699776, "name": "\u0646\u0648\u0634\u06c1\u0631\u06c1", "osm_id": 90536341, "osm_type": "node", "place_id": 220197078, "place_rank": 16, "type": "city"}, "type": "Feature"}, {"bbox": [71.8284312, 33.8367206, 72.1319871, 34.1365353], "geometry": {"coordinates": [71.95013344293969, 33.987536500000004], "type": "Point"}, "properties": {"addresstype": "municipality", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u0636\u0644\u0639 \u0646\u0648\u0634\u06c1\u0631\u06c1, \u067e\u0634\u0627\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u062e\u06cc\u0628\u0631 \u067e\u062e\u062a\u0648\u0646\u062e\u0648\u0627, 24100, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.40001, "name": "\u062a\u062d\u0635\u06cc\u0644 \u0646\u0648\u0634\u06c1\u0631\u06c1", "osm_id": 16498225, "osm_type": "relation", "place_id": 370425661, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_e8efcdd13209a69295fa15c85b66de9a.addTo(choropleth_e330af835042ce2ee22b7ae5eef695f8);
+            geo_json_895e6532a2a15384fc129fe39f4129d8.addTo(choropleth_64a5255cb8e4c91e3a7d3ccdb8598fc8);
         
     
-            choropleth_e330af835042ce2ee22b7ae5eef695f8.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_64a5255cb8e4c91e3a7d3ccdb8598fc8.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_f1fa1b6d8d8599aeea73415793506555 = L.featureGroup(
+            var choropleth_19ed76624ffdecf9137bcd50345e1bfe = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_5e38372ebd202c367288890f3a5c4c9f_styler(feature) {
+        function geo_json_15b0e3570cbb6707ff408a78b34b51c4_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_5e38372ebd202c367288890f3a5c4c9f_onEachFeature(feature, layer) {
+        function geo_json_15b0e3570cbb6707ff408a78b34b51c4_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_5e38372ebd202c367288890f3a5c4c9f = L.geoJson(null, {
-                onEachFeature: geo_json_5e38372ebd202c367288890f3a5c4c9f_onEachFeature,
+        var geo_json_15b0e3570cbb6707ff408a78b34b51c4 = L.geoJson(null, {
+                onEachFeature: geo_json_15b0e3570cbb6707ff408a78b34b51c4_onEachFeature,
             
-                style: geo_json_5e38372ebd202c367288890f3a5c4c9f_styler,
+                style: geo_json_15b0e3570cbb6707ff408a78b34b51c4_styler,
         });
 
-        function geo_json_5e38372ebd202c367288890f3a5c4c9f_add (data) {
-            geo_json_5e38372ebd202c367288890f3a5c4c9f
+        function geo_json_15b0e3570cbb6707ff408a78b34b51c4_add (data) {
+            geo_json_15b0e3570cbb6707ff408a78b34b51c4
                 .addData(data);
         }
-            geo_json_5e38372ebd202c367288890f3a5c4c9f_add({"features": [{"bbox": [71.3688356, 33.9154461, 71.6262872, 34.077447], "geometry": {"coordinates": [71.5787458, 34.0123846], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u067e\u0634\u0627\u0648\u0631 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u067e\u0634\u0627\u0648\u0631\u200e, \u067e\u0634\u0627\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u062e\u06cc\u0628\u0631 \u067e\u062e\u062a\u0648\u0646\u062e\u0648\u0627, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5501545056281637, "name": "\u062a\u062d\u0635\u06cc\u0644 \u067e\u0634\u0627\u0648\u0631 \u0634\u06c1\u0631", "osm_id": 16487008, "osm_type": "relation", "place_id": 369727675, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_15b0e3570cbb6707ff408a78b34b51c4_add({"features": [{"bbox": [71.3688356, 33.9154461, 71.6262872, 34.077447], "geometry": {"coordinates": [71.5787458, 34.0123846], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u067e\u0634\u0627\u0648\u0631 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u067e\u0634\u0627\u0648\u0631\u200e, \u067e\u0634\u0627\u0648\u0631 \u0688\u0648\u06cc\u0698\u0646, \u062e\u06cc\u0628\u0631 \u067e\u062e\u062a\u0648\u0646\u062e\u0648\u0627, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5501545056281637, "name": "\u062a\u062d\u0635\u06cc\u0644 \u067e\u0634\u0627\u0648\u0631 \u0634\u06c1\u0631", "osm_id": 16487008, "osm_type": "relation", "place_id": 370268176, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_5e38372ebd202c367288890f3a5c4c9f.addTo(choropleth_f1fa1b6d8d8599aeea73415793506555);
+            geo_json_15b0e3570cbb6707ff408a78b34b51c4.addTo(choropleth_19ed76624ffdecf9137bcd50345e1bfe);
         
     
-            choropleth_f1fa1b6d8d8599aeea73415793506555.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_19ed76624ffdecf9137bcd50345e1bfe.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_6627c92a47bdcb6db2762f36d6f2636f = L.featureGroup(
+            var choropleth_48d4d2b5a3406c97434319b1b5137656 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_21a0e855985a2c5cb4cd68201b5213b5_styler(feature) {
+        function geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_21a0e855985a2c5cb4cd68201b5213b5_onEachFeature(feature, layer) {
+        function geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_21a0e855985a2c5cb4cd68201b5213b5 = L.geoJson(null, {
-                onEachFeature: geo_json_21a0e855985a2c5cb4cd68201b5213b5_onEachFeature,
+        var geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f = L.geoJson(null, {
+                onEachFeature: geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f_onEachFeature,
             
-                style: geo_json_21a0e855985a2c5cb4cd68201b5213b5_styler,
+                style: geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f_styler,
         });
 
-        function geo_json_21a0e855985a2c5cb4cd68201b5213b5_add (data) {
-            geo_json_21a0e855985a2c5cb4cd68201b5213b5
+        function geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f_add (data) {
+            geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f
                 .addData(data);
         }
-            geo_json_21a0e855985a2c5cb4cd68201b5213b5_add({"features": [{"bbox": [72.99379, 31.335641, 73.193035, 31.526443], "geometry": {"coordinates": [73.0923253, 31.4220558], "type": "Point"}, "properties": {"addresstype": "subdistrict", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0634\u06c1\u0631, \u0636\u0644\u0639 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.49408524358740485, "name": "\u062a\u062d\u0635\u06cc\u0644 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0634\u06c1\u0631", "osm_id": 16108315, "osm_type": "relation", "place_id": 213725690, "place_rank": 14, "type": "administrative"}, "type": "Feature"}, {"bbox": [73.0433978, 31.4073923, 73.0672961, 31.4175684], "geometry": {"coordinates": [73.05495959089825, 31.41232645], "type": "Point"}, "properties": {"addresstype": "town", "category": "place", "display_name": "\u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, \u0636\u0644\u0639 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.30000999999999994, "name": "\u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f", "osm_id": 287657857, "osm_type": "way", "place_id": 212145192, "place_rank": 18, "type": "town"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f_add({"features": [{"bbox": [72.99379, 31.335641, 73.193035, 31.526443], "geometry": {"coordinates": [73.0923253, 31.4220558], "type": "Point"}, "properties": {"addresstype": "subdistrict", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0634\u06c1\u0631, \u0636\u0644\u0639 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.49408524358740485, "name": "\u062a\u062d\u0635\u06cc\u0644 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0634\u06c1\u0631", "osm_id": 16108315, "osm_type": "relation", "place_id": 367902622, "place_rank": 14, "type": "administrative"}, "type": "Feature"}, {"bbox": [73.0433978, 31.4073923, 73.0672961, 31.4175684], "geometry": {"coordinates": [73.05495959089825, 31.41232645], "type": "Point"}, "properties": {"addresstype": "town", "category": "place", "display_name": "\u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, \u0636\u0644\u0639 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.30000999999999994, "name": "\u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f", "osm_id": 287657857, "osm_type": "way", "place_id": 242869946, "place_rank": 18, "type": "town"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_21a0e855985a2c5cb4cd68201b5213b5.addTo(choropleth_6627c92a47bdcb6db2762f36d6f2636f);
+            geo_json_3148e6c604bd5fc8a30d39d6b21f0c0f.addTo(choropleth_48d4d2b5a3406c97434319b1b5137656);
         
     
-            choropleth_6627c92a47bdcb6db2762f36d6f2636f.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_48d4d2b5a3406c97434319b1b5137656.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_de33f101889775530a3fed5d2084085a = L.featureGroup(
+            var choropleth_9e43ebd8b34ee5e15655b8800091cc1a = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_c922b0444a982a498f7854666b35e279_styler(feature) {
+        function geo_json_a8c0d540eed7d14e4abf61103db47ac0_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_c922b0444a982a498f7854666b35e279_onEachFeature(feature, layer) {
+        function geo_json_a8c0d540eed7d14e4abf61103db47ac0_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_c922b0444a982a498f7854666b35e279 = L.geoJson(null, {
-                onEachFeature: geo_json_c922b0444a982a498f7854666b35e279_onEachFeature,
+        var geo_json_a8c0d540eed7d14e4abf61103db47ac0 = L.geoJson(null, {
+                onEachFeature: geo_json_a8c0d540eed7d14e4abf61103db47ac0_onEachFeature,
             
-                style: geo_json_c922b0444a982a498f7854666b35e279_styler,
+                style: geo_json_a8c0d540eed7d14e4abf61103db47ac0_styler,
         });
 
-        function geo_json_c922b0444a982a498f7854666b35e279_add (data) {
-            geo_json_c922b0444a982a498f7854666b35e279
+        function geo_json_a8c0d540eed7d14e4abf61103db47ac0_add (data) {
+            geo_json_a8c0d540eed7d14e4abf61103db47ac0
                 .addData(data);
         }
-            geo_json_c922b0444a982a498f7854666b35e279_add({"features": [{"bbox": [74.1266029, 32.0298111, 74.2812075, 32.2445605], "geometry": {"coordinates": [74.1933745, 32.1525312], "type": "Point"}, "properties": {"addresstype": "subdistrict", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.46335633412572613, "name": "\u062a\u062d\u0635\u06cc\u0644 \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0634\u06c1\u0631", "osm_id": 16108369, "osm_type": "relation", "place_id": 197246510, "place_rank": 14, "type": "administrative"}, "type": "Feature"}, {"bbox": [74.5264404, 32.4068459, 74.5664404, 32.4468459], "geometry": {"coordinates": [74.5464404, 32.4268459], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1, \u062a\u062d\u0635\u06cc\u0644 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u0636\u0644\u0639 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 51310, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1", "osm_id": 8878100768, "osm_type": "node", "place_id": 189801652, "place_rank": 19, "type": "village"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_a8c0d540eed7d14e4abf61103db47ac0_add({"features": [{"bbox": [74.1266029, 32.0298111, 74.2812075, 32.2445605], "geometry": {"coordinates": [74.1933745, 32.1525312], "type": "Point"}, "properties": {"addresstype": "subdistrict", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.46335633412572613, "name": "\u062a\u062d\u0635\u06cc\u0644 \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0634\u06c1\u0631", "osm_id": 16108369, "osm_type": "relation", "place_id": 367904499, "place_rank": 14, "type": "administrative"}, "type": "Feature"}, {"bbox": [74.5264404, 32.4068459, 74.5664404, 32.4468459], "geometry": {"coordinates": [74.5464404, 32.4268459], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1, \u062a\u062d\u0635\u06cc\u0644 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u0636\u0644\u0639 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 51310, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1", "osm_id": 8878100768, "osm_type": "node", "place_id": 220423274, "place_rank": 19, "type": "village"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_c922b0444a982a498f7854666b35e279.addTo(choropleth_de33f101889775530a3fed5d2084085a);
+            geo_json_a8c0d540eed7d14e4abf61103db47ac0.addTo(choropleth_9e43ebd8b34ee5e15655b8800091cc1a);
         
     
-            choropleth_de33f101889775530a3fed5d2084085a.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_9e43ebd8b34ee5e15655b8800091cc1a.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_f7aff650a460a3d1f2fb0dbff711963c = L.featureGroup(
+            var choropleth_d21a1cbf3fc38a524606b73eef2a431a = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_d0c1702007bcd109d30bdaf4b797139d_styler(feature) {
+        function geo_json_c0870a8d2feafa1694c4b03918ff1099_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_d0c1702007bcd109d30bdaf4b797139d_onEachFeature(feature, layer) {
+        function geo_json_c0870a8d2feafa1694c4b03918ff1099_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_d0c1702007bcd109d30bdaf4b797139d = L.geoJson(null, {
-                onEachFeature: geo_json_d0c1702007bcd109d30bdaf4b797139d_onEachFeature,
+        var geo_json_c0870a8d2feafa1694c4b03918ff1099 = L.geoJson(null, {
+                onEachFeature: geo_json_c0870a8d2feafa1694c4b03918ff1099_onEachFeature,
             
-                style: geo_json_d0c1702007bcd109d30bdaf4b797139d_styler,
+                style: geo_json_c0870a8d2feafa1694c4b03918ff1099_styler,
         });
 
-        function geo_json_d0c1702007bcd109d30bdaf4b797139d_add (data) {
-            geo_json_d0c1702007bcd109d30bdaf4b797139d
+        function geo_json_c0870a8d2feafa1694c4b03918ff1099_add (data) {
+            geo_json_c0870a8d2feafa1694c4b03918ff1099
                 .addData(data);
         }
-            geo_json_d0c1702007bcd109d30bdaf4b797139d_add({"features": [{"bbox": [74.0353632, 32.4925875, 74.1403448, 32.6557799], "geometry": {"coordinates": [74.071481, 32.5686782], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u06af\u062c\u0631\u0627\u062a, \u062a\u062d\u0635\u06cc\u0644 \u06af\u062c\u0631\u0627\u062a, \u0636\u0644\u0639 \u06af\u062c\u0631\u0627\u062a, \u06af\u062c\u0631\u0627\u062a \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4181423672099549, "name": "\u06af\u062c\u0631\u0627\u062a", "osm_id": 452820167, "osm_type": "way", "place_id": 190366925, "place_rank": 16, "type": "city"}, "type": "Feature"}, {"bbox": [75.2339088, 32.277226, 75.2739088, 32.317226], "geometry": {"coordinates": [75.2539088, 32.297226], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u06af\u062c\u0631\u0627\u062a, \u062a\u062d\u0635\u06cc\u0644 \u0634\u06a9\u0631\u06af\u0691\u06be, \u0636\u0644\u0639 \u0646\u0627\u0631\u0648\u0648\u0627\u0644, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u06af\u062c\u0631\u0627\u062a", "osm_id": 8920768346, "osm_type": "node", "place_id": 189374701, "place_rank": 19, "type": "village"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_c0870a8d2feafa1694c4b03918ff1099_add({"features": [{"bbox": [74.0353632, 32.4925875, 74.1403448, 32.6557799], "geometry": {"coordinates": [74.071481, 32.5686782], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u06af\u062c\u0631\u0627\u062a, \u062a\u062d\u0635\u06cc\u0644 \u06af\u062c\u0631\u0627\u062a, \u0636\u0644\u0639 \u06af\u062c\u0631\u0627\u062a, \u06af\u062c\u0631\u0627\u062a \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4181423672099549, "name": "\u06af\u062c\u0631\u0627\u062a", "osm_id": 452820167, "osm_type": "way", "place_id": 219811784, "place_rank": 16, "type": "city"}, "type": "Feature"}, {"bbox": [75.2339088, 32.277226, 75.2739088, 32.317226], "geometry": {"coordinates": [75.2539088, 32.297226], "type": "Point"}, "properties": {"addresstype": "village", "category": "place", "display_name": "\u06af\u062c\u0631\u0627\u062a, \u062a\u062d\u0635\u06cc\u0644 \u0634\u06a9\u0631\u06af\u0691\u06be, \u0636\u0644\u0639 \u0646\u0627\u0631\u0648\u0648\u0627\u0644, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.27501, "name": "\u06af\u062c\u0631\u0627\u062a", "osm_id": 8920768346, "osm_type": "node", "place_id": 220994747, "place_rank": 19, "type": "village"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_d0c1702007bcd109d30bdaf4b797139d.addTo(choropleth_f7aff650a460a3d1f2fb0dbff711963c);
+            geo_json_c0870a8d2feafa1694c4b03918ff1099.addTo(choropleth_d21a1cbf3fc38a524606b73eef2a431a);
         
     
-            choropleth_f7aff650a460a3d1f2fb0dbff711963c.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_d21a1cbf3fc38a524606b73eef2a431a.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_df51cc4589c6e937c56f0cfd3f04d8c7 = L.featureGroup(
+            var choropleth_1ad29632b1d910ffc5b5d1ff594d3963 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_93916d6d4bf90fb443a5940754acb909_styler(feature) {
+        function geo_json_485a5904e0939530c17a8729594d1610_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_93916d6d4bf90fb443a5940754acb909_onEachFeature(feature, layer) {
+        function geo_json_485a5904e0939530c17a8729594d1610_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_93916d6d4bf90fb443a5940754acb909 = L.geoJson(null, {
-                onEachFeature: geo_json_93916d6d4bf90fb443a5940754acb909_onEachFeature,
+        var geo_json_485a5904e0939530c17a8729594d1610 = L.geoJson(null, {
+                onEachFeature: geo_json_485a5904e0939530c17a8729594d1610_onEachFeature,
             
-                style: geo_json_93916d6d4bf90fb443a5940754acb909_styler,
+                style: geo_json_485a5904e0939530c17a8729594d1610_styler,
         });
 
-        function geo_json_93916d6d4bf90fb443a5940754acb909_add (data) {
-            geo_json_93916d6d4bf90fb443a5940754acb909
+        function geo_json_485a5904e0939530c17a8729594d1610_add (data) {
+            geo_json_485a5904e0939530c17a8729594d1610
                 .addData(data);
         }
-            geo_json_93916d6d4bf90fb443a5940754acb909_add({"features": [{"bbox": [68.3103163, 25.3434571, 68.4200933, 25.4711398], "geometry": {"coordinates": [68.36134563257718, 25.4075358], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u0636\u0644\u0639 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u062d\u06cc\u062f\u0631 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4632558191819374, "name": "\u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f", "osm_id": 14480894, "osm_type": "relation", "place_id": 213820827, "place_rank": 16, "type": "city"}, "type": "Feature"}, {"bbox": [68.3305109, 25.3607042, 68.4277109, 25.4411614], "geometry": {"coordinates": [68.3714971, 25.3868287], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u062a\u0639\u0644\u0642\u06c1 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f \u0634\u06c1\u0631, \u0636\u0644\u0639 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u062d\u06cc\u062f\u0631 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, 91000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4632558191819374, "name": "\u062a\u0639\u0644\u0642\u06c1 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f \u0634\u06c1\u0631", "osm_id": 16362308, "osm_type": "relation", "place_id": 367806404, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_485a5904e0939530c17a8729594d1610_add({"features": [{"bbox": [68.3305109, 25.3607042, 68.4277109, 25.4411614], "geometry": {"coordinates": [68.3714971, 25.3868287], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u062a\u0639\u0644\u0642\u06c1 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f \u0634\u06c1\u0631, \u0636\u0644\u0639 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u062d\u06cc\u062f\u0631 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, 91000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4632558191819374, "name": "\u062a\u0639\u0644\u0642\u06c1 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f \u0634\u06c1\u0631", "osm_id": 16362308, "osm_type": "relation", "place_id": 368346593, "place_rank": 14, "type": "administrative"}, "type": "Feature"}, {"bbox": [68.3103163, 25.3434571, 68.4200933, 25.4711398], "geometry": {"coordinates": [68.36134563257718, 25.4075358], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u0636\u0644\u0639 \u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f, \u062d\u06cc\u062f\u0631 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u0633\u0646\u062f\u06be, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4632558191819374, "name": "\u062d\u06cc\u062f\u0631\u0622\u0628\u0627\u062f", "osm_id": 14480894, "osm_type": "relation", "place_id": 244120425, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_93916d6d4bf90fb443a5940754acb909.addTo(choropleth_df51cc4589c6e937c56f0cfd3f04d8c7);
+            geo_json_485a5904e0939530c17a8729594d1610.addTo(choropleth_1ad29632b1d910ffc5b5d1ff594d3963);
         
     
-            choropleth_df51cc4589c6e937c56f0cfd3f04d8c7.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_1ad29632b1d910ffc5b5d1ff594d3963.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_0448fc5ec33af6480cc426a07400a90f = L.featureGroup(
+            var choropleth_01f3b2900eabff008452cc9b1b2640d0 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_1a9babc5d06eb9ecd110f25ef68386f8_styler(feature) {
+        function geo_json_f407cf518379bf13e9d31769de99f7b1_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_1a9babc5d06eb9ecd110f25ef68386f8_onEachFeature(feature, layer) {
+        function geo_json_f407cf518379bf13e9d31769de99f7b1_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_1a9babc5d06eb9ecd110f25ef68386f8 = L.geoJson(null, {
-                onEachFeature: geo_json_1a9babc5d06eb9ecd110f25ef68386f8_onEachFeature,
+        var geo_json_f407cf518379bf13e9d31769de99f7b1 = L.geoJson(null, {
+                onEachFeature: geo_json_f407cf518379bf13e9d31769de99f7b1_onEachFeature,
             
-                style: geo_json_1a9babc5d06eb9ecd110f25ef68386f8_styler,
+                style: geo_json_f407cf518379bf13e9d31769de99f7b1_styler,
         });
 
-        function geo_json_1a9babc5d06eb9ecd110f25ef68386f8_add (data) {
-            geo_json_1a9babc5d06eb9ecd110f25ef68386f8
+        function geo_json_f407cf518379bf13e9d31769de99f7b1_add (data) {
+            geo_json_f407cf518379bf13e9d31769de99f7b1
                 .addData(data);
         }
-            geo_json_1a9babc5d06eb9ecd110f25ef68386f8_add({"features": [{"bbox": [71.3119683, 30.037838, 71.6319683, 30.357838], "geometry": {"coordinates": [71.4719683, 30.197838], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0645\u0644\u062a\u0627\u0646, \u062a\u062d\u0635\u06cc\u0644 \u0645\u0644\u062a\u0627\u0646 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u0645\u0644\u062a\u0627\u0646, \u0645\u0644\u062a\u0627\u0646 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 60700, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5145112285124082, "name": "\u0645\u0644\u062a\u0627\u0646", "osm_id": 307617596, "osm_type": "node", "place_id": 212533939, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_f407cf518379bf13e9d31769de99f7b1_add({"features": [{"bbox": [71.3119683, 30.037838, 71.6319683, 30.357838], "geometry": {"coordinates": [71.4719683, 30.197838], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0645\u0644\u062a\u0627\u0646, \u062a\u062d\u0635\u06cc\u0644 \u0645\u0644\u062a\u0627\u0646 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u0645\u0644\u062a\u0627\u0646, \u0645\u0644\u062a\u0627\u0646 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 66000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5145112285124082, "name": "\u0645\u0644\u062a\u0627\u0646", "osm_id": 307617596, "osm_type": "node", "place_id": 243243246, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_1a9babc5d06eb9ecd110f25ef68386f8.addTo(choropleth_0448fc5ec33af6480cc426a07400a90f);
+            geo_json_f407cf518379bf13e9d31769de99f7b1.addTo(choropleth_01f3b2900eabff008452cc9b1b2640d0);
         
     
-            choropleth_0448fc5ec33af6480cc426a07400a90f.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_01f3b2900eabff008452cc9b1b2640d0.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_057887449a6175210a2064c11737c6fa = L.featureGroup(
+            var choropleth_54e5675bd5a2b8f30dbbdfc184d5ca8a = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_2595cfaa7341e86d963234e66d86fea8_styler(feature) {
+        function geo_json_c6aa8ab4602b56fe70fedc10047997b8_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_2595cfaa7341e86d963234e66d86fea8_onEachFeature(feature, layer) {
+        function geo_json_c6aa8ab4602b56fe70fedc10047997b8_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_2595cfaa7341e86d963234e66d86fea8 = L.geoJson(null, {
-                onEachFeature: geo_json_2595cfaa7341e86d963234e66d86fea8_onEachFeature,
+        var geo_json_c6aa8ab4602b56fe70fedc10047997b8 = L.geoJson(null, {
+                onEachFeature: geo_json_c6aa8ab4602b56fe70fedc10047997b8_onEachFeature,
             
-                style: geo_json_2595cfaa7341e86d963234e66d86fea8_styler,
+                style: geo_json_c6aa8ab4602b56fe70fedc10047997b8_styler,
         });
 
-        function geo_json_2595cfaa7341e86d963234e66d86fea8_add (data) {
-            geo_json_2595cfaa7341e86d963234e66d86fea8
+        function geo_json_c6aa8ab4602b56fe70fedc10047997b8_add (data) {
+            geo_json_c6aa8ab4602b56fe70fedc10047997b8
                 .addData(data);
         }
-            geo_json_2595cfaa7341e86d963234e66d86fea8_add({"features": [{"bbox": [66.8273053, 30.0080352, 67.2434482, 30.2534296], "geometry": {"coordinates": [67.0172447, 30.1957677], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u06a9\u0648\u0626\u0679\u06c1 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u06a9\u0648\u0626\u0679\u06c1, \u06a9\u0648\u0626\u0679\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u0628\u0644\u0648\u0686\u0633\u062a\u0627\u0646, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5142918698775764, "name": "\u062a\u062d\u0635\u06cc\u0644 \u06a9\u0648\u0626\u0679\u06c1 \u0634\u06c1\u0631", "osm_id": 16636824, "osm_type": "relation", "place_id": 371792131, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_c6aa8ab4602b56fe70fedc10047997b8_add({"features": [{"bbox": [66.8273053, 30.0080352, 67.2434482, 30.2534296], "geometry": {"coordinates": [67.0172447, 30.1957677], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u06a9\u0648\u0626\u0679\u06c1 \u0634\u06c1\u0631, \u0636\u0644\u0639 \u06a9\u0648\u0626\u0679\u06c1, \u06a9\u0648\u0626\u0679\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u0628\u0644\u0648\u0686\u0633\u062a\u0627\u0646, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.5142918698775764, "name": "\u062a\u062d\u0635\u06cc\u0644 \u06a9\u0648\u0626\u0679\u06c1 \u0634\u06c1\u0631", "osm_id": 16636824, "osm_type": "relation", "place_id": 372332660, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_2595cfaa7341e86d963234e66d86fea8.addTo(choropleth_057887449a6175210a2064c11737c6fa);
+            geo_json_c6aa8ab4602b56fe70fedc10047997b8.addTo(choropleth_54e5675bd5a2b8f30dbbdfc184d5ca8a);
         
     
-            choropleth_057887449a6175210a2064c11737c6fa.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_54e5675bd5a2b8f30dbbdfc184d5ca8a.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_5158cd4a2d54a42d726a3cc515fd0c1a = L.featureGroup(
+            var choropleth_5bf2b294e539c2244cf1cc2661470ae4 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_1827cc82c09d654fb450ccdacd4317b3_styler(feature) {
+        function geo_json_5c43a548501397ec6f6151944c2a3d13_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_1827cc82c09d654fb450ccdacd4317b3_onEachFeature(feature, layer) {
+        function geo_json_5c43a548501397ec6f6151944c2a3d13_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_1827cc82c09d654fb450ccdacd4317b3 = L.geoJson(null, {
-                onEachFeature: geo_json_1827cc82c09d654fb450ccdacd4317b3_onEachFeature,
+        var geo_json_5c43a548501397ec6f6151944c2a3d13 = L.geoJson(null, {
+                onEachFeature: geo_json_5c43a548501397ec6f6151944c2a3d13_onEachFeature,
             
-                style: geo_json_1827cc82c09d654fb450ccdacd4317b3_styler,
+                style: geo_json_5c43a548501397ec6f6151944c2a3d13_styler,
         });
 
-        function geo_json_1827cc82c09d654fb450ccdacd4317b3_add (data) {
-            geo_json_1827cc82c09d654fb450ccdacd4317b3
+        function geo_json_5c43a548501397ec6f6151944c2a3d13_add (data) {
+            geo_json_5c43a548501397ec6f6151944c2a3d13
                 .addData(data);
         }
-            geo_json_1827cc82c09d654fb450ccdacd4317b3_add({"features": [{"bbox": [72.8935122, 33.4314237, 73.2135122, 33.7514237], "geometry": {"coordinates": [73.0535122, 33.5914237], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc, \u0636\u0644\u0639 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 23451, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.520515340710182, "name": "\u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc", "osm_id": 58744442, "osm_type": "node", "place_id": 188766118, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_5c43a548501397ec6f6151944c2a3d13_add({"features": [{"bbox": [72.9140747, 33.4273253, 73.1838357, 33.6646317], "geometry": {"coordinates": [73.02145076180204, 33.546312400000005], "type": "Point"}, "properties": {"addresstype": "protected_area", "category": "boundary", "display_name": "\u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.06667666666666666, "name": "\u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc", "osm_id": 8295216, "osm_type": "relation", "place_id": 221994052, "place_rank": 25, "type": "protected_area"}, "type": "Feature"}, {"bbox": [73.0303657, 33.6011845, 73.0387257, 33.6084845], "geometry": {"coordinates": [73.03464099828489, 33.60502525], "type": "Point"}, "properties": {"addresstype": "park", "category": "leisure", "display_name": "Rawalpindi Race Course, \u0648\u06cc\u0633\u0679\u0631\u06cc\u062c, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.08000999999999997, "name": "Rawalpindi Race Course", "osm_id": 13049975, "osm_type": "way", "place_id": 220549834, "place_rank": 24, "type": "park"}, "type": "Feature"}, {"bbox": [72.99995, 33.166617, 73.00005, 33.166717], "geometry": {"coordinates": [73.0, 33.166667], "type": "Point"}, "properties": {"addresstype": "historical_division", "category": "place", "display_name": "R\u0101walpindi Division, \u062a\u062d\u0635\u06cc\u0644 \u06af\u0648\u062c\u0631 \u062e\u0627\u0646, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.10667666666666664, "name": "R\u0101walpindi Division", "osm_id": 316440993, "osm_type": "node", "place_id": 220225880, "place_rank": 22, "type": "historical_division"}, "type": "Feature"}, {"bbox": [72.6312375, 33.157155, 73.309712, 33.6231429], "geometry": {"coordinates": [72.96071956811485, 33.3901519], "type": "Point"}, "properties": {"addresstype": "municipality", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0635\u062f\u0631, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.2133433333333333, "name": "\u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0635\u062f\u0631", "osm_id": 8160842, "osm_type": "relation", "place_id": 367973675, "place_rank": 14, "type": "administrative"}, "type": "Feature"}, {"bbox": [72.9140747, 33.4273253, 73.1838357, 33.6284097], "geometry": {"coordinates": [73.0479912, 33.5882421], "type": "Point"}, "properties": {"addresstype": "town", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.2133433333333333, "name": "\u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc", "osm_id": 8295062, "osm_type": "relation", "place_id": 220966210, "place_rank": 14, "type": "administrative"}, "type": "Feature"}, {"bbox": [73.0447349, 33.5824218, 73.054013, 33.5904368], "geometry": {"coordinates": [73.0493735567963, 33.58642735], "type": "Point"}, "properties": {"addresstype": "military", "category": "landuse", "display_name": "\u062c\u0646\u0631\u0644 \u06c1\u06cc\u0688 \u06a9\u0648\u0627\u0631\u0679\u0631 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u06a9\u0627\u0645\u0631\u0627\u0646 \u0686\u0648\u06a9, \u0635\u062f\u0631, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.10667666666666664, "name": "\u062c\u0646\u0631\u0644 \u06c1\u06cc\u0688 \u06a9\u0648\u0627\u0631\u0679\u0631 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc", "osm_id": 739621408, "osm_type": "way", "place_id": 220757066, "place_rank": 22, "type": "military"}, "type": "Feature"}, {"bbox": [73.0151009, 33.5981662, 73.1289586, 33.6646317], "geometry": {"coordinates": [73.06752822055776, 33.63108965], "type": "Point"}, "properties": {"addresstype": "municipality", "category": "boundary", "display_name": "\u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0634\u06c1\u0631, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.08544064771236405, "name": "\u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0634\u06c1\u0631", "osm_id": 8159645, "osm_type": "relation", "place_id": 367973673, "place_rank": 14, "type": "administrative"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_1827cc82c09d654fb450ccdacd4317b3.addTo(choropleth_5158cd4a2d54a42d726a3cc515fd0c1a);
+            geo_json_5c43a548501397ec6f6151944c2a3d13.addTo(choropleth_5bf2b294e539c2244cf1cc2661470ae4);
         
     
-            choropleth_5158cd4a2d54a42d726a3cc515fd0c1a.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_5bf2b294e539c2244cf1cc2661470ae4.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_e92cfbcde7a0ed3fb94836d05329ddd9 = L.featureGroup(
+            var choropleth_ea3614bf01640ddd00c589678b5aad39 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14_styler(feature) {
+        function geo_json_af7842cdb28d1b4a2e717d08757c0c96_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14_onEachFeature(feature, layer) {
+        function geo_json_af7842cdb28d1b4a2e717d08757c0c96_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14 = L.geoJson(null, {
-                onEachFeature: geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14_onEachFeature,
+        var geo_json_af7842cdb28d1b4a2e717d08757c0c96 = L.geoJson(null, {
+                onEachFeature: geo_json_af7842cdb28d1b4a2e717d08757c0c96_onEachFeature,
             
-                style: geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14_styler,
+                style: geo_json_af7842cdb28d1b4a2e717d08757c0c96_styler,
         });
 
-        function geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14_add (data) {
-            geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14
+        function geo_json_af7842cdb28d1b4a2e717d08757c0c96_add (data) {
+            geo_json_af7842cdb28d1b4a2e717d08757c0c96
                 .addData(data);
         }
-            geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14_add({"features": [{"bbox": [72.6395417, 32.0448809, 72.7442851, 32.1261879], "geometry": {"coordinates": [72.67917434961666, 32.08535155], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "Sargodha, \u062a\u062d\u0635\u06cc\u0644 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u0636\u0644\u0639 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u0633\u0631\u06af\u0648\u062f\u06be\u0627 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.35000999999999993, "name": "Sargodha", "osm_id": 1138025958, "osm_type": "way", "place_id": 189727158, "place_rank": 16, "type": "administrative"}, "type": "Feature"}, {"bbox": [72.5176943, 31.9289657, 72.8376943, 32.2489657], "geometry": {"coordinates": [72.6776943, 32.0889657], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u062a\u062d\u0635\u06cc\u0644 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u0636\u0644\u0639 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u0633\u0631\u06af\u0648\u062f\u06be\u0627 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 40100, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.44210101824834047, "name": "\u0633\u0631\u06af\u0648\u062f\u06be\u0627", "osm_id": 244030016, "osm_type": "node", "place_id": 190239248, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_af7842cdb28d1b4a2e717d08757c0c96_add({"features": [{"bbox": [72.6395417, 32.0448809, 72.7442851, 32.1261879], "geometry": {"coordinates": [72.67917434961666, 32.08535155], "type": "Point"}, "properties": {"addresstype": "city", "category": "boundary", "display_name": "Sargodha, \u062a\u062d\u0635\u06cc\u0644 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u0636\u0644\u0639 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.35000999999999993, "name": "Sargodha", "osm_id": 1138025958, "osm_type": "way", "place_id": 220566830, "place_rank": 16, "type": "administrative"}, "type": "Feature"}, {"bbox": [72.5176943, 31.9289657, 72.8376943, 32.2489657], "geometry": {"coordinates": [72.6776943, 32.0889657], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u062a\u062d\u0635\u06cc\u0644 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u0636\u0644\u0639 \u0633\u0631\u06af\u0648\u062f\u06be\u0627, \u067e\u0646\u062c\u0627\u0628, 40100, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.44210101824834047, "name": "\u0633\u0631\u06af\u0648\u062f\u06be\u0627", "osm_id": 244030016, "osm_type": "node", "place_id": 220771826, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_3ebf620dd7cc3cfd2664cf1b8253cb14.addTo(choropleth_e92cfbcde7a0ed3fb94836d05329ddd9);
+            geo_json_af7842cdb28d1b4a2e717d08757c0c96.addTo(choropleth_ea3614bf01640ddd00c589678b5aad39);
         
     
-            choropleth_e92cfbcde7a0ed3fb94836d05329ddd9.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_ea3614bf01640ddd00c589678b5aad39.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_176a1c94945a3e3e3c1aa36621447a59 = L.featureGroup(
+            var choropleth_af457e12e1805612bd36fcc9b752544a = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_5867d131d24304f6899622e913b819e4_styler(feature) {
+        function geo_json_01e3da632a735bec52b6618a2519f0e5_styler(feature) {
             switch(feature.properties.place_id) {
                 default:
                     return {"color": "black", "fillColor": "blue", "fillOpacity": 0.7, "opacity": 0.2, "weight": 1};
             }
         }
 
-        function geo_json_5867d131d24304f6899622e913b819e4_onEachFeature(feature, layer) {
+        function geo_json_01e3da632a735bec52b6618a2519f0e5_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_5867d131d24304f6899622e913b819e4 = L.geoJson(null, {
-                onEachFeature: geo_json_5867d131d24304f6899622e913b819e4_onEachFeature,
+        var geo_json_01e3da632a735bec52b6618a2519f0e5 = L.geoJson(null, {
+                onEachFeature: geo_json_01e3da632a735bec52b6618a2519f0e5_onEachFeature,
             
-                style: geo_json_5867d131d24304f6899622e913b819e4_styler,
+                style: geo_json_01e3da632a735bec52b6618a2519f0e5_styler,
         });
 
-        function geo_json_5867d131d24304f6899622e913b819e4_add (data) {
-            geo_json_5867d131d24304f6899622e913b819e4
+        function geo_json_01e3da632a735bec52b6618a2519f0e5_add (data) {
+            geo_json_01e3da632a735bec52b6618a2519f0e5
                 .addData(data);
         }
-            geo_json_5867d131d24304f6899622e913b819e4_add({"features": [{"bbox": [74.3811575, 32.3335378, 74.7011575, 32.6535378], "geometry": {"coordinates": [74.5411575, 32.4935378], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u062a\u062d\u0635\u06cc\u0644 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u0636\u0644\u0639 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 51430, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4710861911257393, "name": "\u0633\u06cc\u0627\u0644\u06a9\u0648\u0679", "osm_id": 2408222266, "osm_type": "node", "place_id": 188155550, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_01e3da632a735bec52b6618a2519f0e5_add({"features": [{"bbox": [74.3811575, 32.3335378, 74.7011575, 32.6535378], "geometry": {"coordinates": [74.5411575, 32.4935378], "type": "Point"}, "properties": {"addresstype": "city", "category": "place", "display_name": "\u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u062a\u062d\u0635\u06cc\u0644 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u0636\u0644\u0639 \u0633\u06cc\u0627\u0644\u06a9\u0648\u0679, \u06af\u0648\u062c\u0631\u0627\u0646\u0648\u0627\u0644\u06c1 \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 51430, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646", "importance": 0.4710861911257393, "name": "\u0633\u06cc\u0627\u0644\u06a9\u0648\u0679", "osm_id": 2408222266, "osm_type": "node", "place_id": 221273233, "place_rank": 16, "type": "city"}, "type": "Feature"}], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_5867d131d24304f6899622e913b819e4.addTo(choropleth_176a1c94945a3e3e3c1aa36621447a59);
+            geo_json_01e3da632a735bec52b6618a2519f0e5.addTo(choropleth_af457e12e1805612bd36fcc9b752544a);
         
     
-            choropleth_176a1c94945a3e3e3c1aa36621447a59.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_af457e12e1805612bd36fcc9b752544a.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_2c5559a0714d4739fd514402b922c7ed = L.featureGroup(
+            var choropleth_2e64312140dd01ee3c7c6a22c249bf17 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_657fa9d16fc0292f0b7c3ce20926f986_styler(feature) {
+        function geo_json_254139acbc5b252764a2186145e66330_styler(feature) {
             switch(feature.id) {
                 default:
                     return ;
             }
         }
 
-        function geo_json_657fa9d16fc0292f0b7c3ce20926f986_onEachFeature(feature, layer) {
+        function geo_json_254139acbc5b252764a2186145e66330_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_657fa9d16fc0292f0b7c3ce20926f986 = L.geoJson(null, {
-                onEachFeature: geo_json_657fa9d16fc0292f0b7c3ce20926f986_onEachFeature,
+        var geo_json_254139acbc5b252764a2186145e66330 = L.geoJson(null, {
+                onEachFeature: geo_json_254139acbc5b252764a2186145e66330_onEachFeature,
             
-                style: geo_json_657fa9d16fc0292f0b7c3ce20926f986_styler,
+                style: geo_json_254139acbc5b252764a2186145e66330_styler,
         });
 
-        function geo_json_657fa9d16fc0292f0b7c3ce20926f986_add (data) {
-            geo_json_657fa9d16fc0292f0b7c3ce20926f986
+        function geo_json_254139acbc5b252764a2186145e66330_add (data) {
+            geo_json_254139acbc5b252764a2186145e66330
                 .addData(data);
         }
-            geo_json_657fa9d16fc0292f0b7c3ce20926f986_add({"features": [], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_254139acbc5b252764a2186145e66330_add({"features": [], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_657fa9d16fc0292f0b7c3ce20926f986.addTo(choropleth_2c5559a0714d4739fd514402b922c7ed);
+            geo_json_254139acbc5b252764a2186145e66330.addTo(choropleth_2e64312140dd01ee3c7c6a22c249bf17);
         
     
-            choropleth_2c5559a0714d4739fd514402b922c7ed.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_2e64312140dd01ee3c7c6a22c249bf17.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
     
-            var choropleth_d2736ec1d58ffe01c668a0868cee2ff6 = L.featureGroup(
+            var choropleth_aad267cf2484d5789d110b3970252104 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_0620be1e2d31437d741df8a08074e94c_styler(feature) {
+        function geo_json_01f7e0ac64cdcda746040d5947db7106_styler(feature) {
             switch(feature.id) {
                 default:
                     return ;
             }
         }
 
-        function geo_json_0620be1e2d31437d741df8a08074e94c_onEachFeature(feature, layer) {
+        function geo_json_01f7e0ac64cdcda746040d5947db7106_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_0620be1e2d31437d741df8a08074e94c = L.geoJson(null, {
-                onEachFeature: geo_json_0620be1e2d31437d741df8a08074e94c_onEachFeature,
+        var geo_json_01f7e0ac64cdcda746040d5947db7106 = L.geoJson(null, {
+                onEachFeature: geo_json_01f7e0ac64cdcda746040d5947db7106_onEachFeature,
             
-                style: geo_json_0620be1e2d31437d741df8a08074e94c_styler,
+                style: geo_json_01f7e0ac64cdcda746040d5947db7106_styler,
         });
 
-        function geo_json_0620be1e2d31437d741df8a08074e94c_add (data) {
-            geo_json_0620be1e2d31437d741df8a08074e94c
+        function geo_json_01f7e0ac64cdcda746040d5947db7106_add (data) {
+            geo_json_01f7e0ac64cdcda746040d5947db7106
                 .addData(data);
         }
-            geo_json_0620be1e2d31437d741df8a08074e94c_add({"features": [], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
+            geo_json_01f7e0ac64cdcda746040d5947db7106_add({"features": [], "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright", "type": "FeatureCollection"});
 
         
     
-            geo_json_0620be1e2d31437d741df8a08074e94c.addTo(choropleth_d2736ec1d58ffe01c668a0868cee2ff6);
+            geo_json_01f7e0ac64cdcda746040d5947db7106.addTo(choropleth_aad267cf2484d5789d110b3970252104);
         
     
-            choropleth_d2736ec1d58ffe01c668a0868cee2ff6.addTo(map_4a0d6f766235309715d62857667d92ef);
+            choropleth_aad267cf2484d5789d110b3970252104.addTo(map_04813d3d754f5c7ae57db6e3b4ee627f);
         
 </script>
 </html>
